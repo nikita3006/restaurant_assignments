@@ -1,5 +1,5 @@
 import classes from './Cart.module.css';
-import Modal from '../UI/Modal';
+import Modal from '../UI/Modal.js';
 
 import React ,{useContext}from 'react';
 import CartContext from '../../Store/CartContext';

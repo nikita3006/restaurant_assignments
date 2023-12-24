@@ -1,8 +1,7 @@
-import Header from './Components/Layout/header'
+import Header from './components/Layout/Header'
 import React,{useState} from 'react';
-
-import Meals from './Components/Meals/Meals.js'
-import Cart from './Components/Cart/Cart';
+import Meals from './components/Meals/Meals'
+import Cart from './components/Cart/Cart';
 import CartProvider from './Store/ContextProvider';
 
 const App = () => {

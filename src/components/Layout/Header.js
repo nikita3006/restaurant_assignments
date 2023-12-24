@@ -1,5 +1,5 @@
-import classes from './header.module.css'
-import image1 from '../../Assets/1.jpg'
+import classes from './Header.module.css'
+import background2 from '../../Assets/background2.jpg'
 import HeaderCartButton from './HeaderCartButton'
 
 const Header=(props)=>{
@@ -10,7 +10,7 @@ const Header=(props)=>{
         <HeaderCartButton onClick={props.onShowCart}/>
       </header>
       <div className={classes['main-image']}>
-        <img src={image1} alt="Lets go" />
+        <img src={background2} alt="Lets go" />
       </div>
     </>
    )
