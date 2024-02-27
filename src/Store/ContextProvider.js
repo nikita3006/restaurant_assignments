@@ -1,6 +1,5 @@
 import React, { useReducer } from "react";
-import CartContext from './CartContext';
-
+import CartContext from "./CartContext";
 
 const defaultCartState = {
   items: [],
@@ -55,14 +54,13 @@ const cartReducer = (state, action) => {
       updatedItems = [...state.items];
       updatedItems[existingCartItemIndex] = updatedItem;
     }
-  
 
     return {
       items: updatedItems,
       totalAmount: updatedTotalAmount,
     };
   }
- 
+
   return defaultCartState;
 };
 
